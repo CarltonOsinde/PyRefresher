@@ -31,3 +31,17 @@ for i in st_grades.keys():
 for i in st_grades.values():
     print(i)
 
+
+
+#WHILE LOOPS
+
+while True:
+    username = input("Enter your username: ")
+    if username == "Carlton":
+        break
+    else:
+        continue
+
+password = input("Enter your password: ")
+
+print("Thank you for logging in!")
