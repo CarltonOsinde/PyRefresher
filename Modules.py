@@ -7,7 +7,6 @@ import numpy as np
 
 
 
-
 #IMPORTING CSV data - Pandas is a data analyis library
 while True:
     if os.path.exists("files/temps_today.csv"):
